@@ -13,7 +13,7 @@ from flask import Flask, request, session, g, redirect, url_for, abort, \
 
 # the application object from the main Flask class
 app = Flask(__name__)
-
+server=app.server
 # override config from environment variable
 app.config.update(dict(
     DATABASE=os.path.join(app.root_path, 'tradechat.db'),
