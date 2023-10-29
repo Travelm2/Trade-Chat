@@ -1,5 +1,5 @@
 
 datetime
-SQLite3
+dbapi2
 flask
 gunicorn
